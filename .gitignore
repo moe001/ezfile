@@ -240,3 +240,6 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+/ezfile_main/temp
+/ezfile_main/__pycache__
+/ezfile_main/ezfile/__pycache__
