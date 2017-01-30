@@ -1,3 +1,5 @@
+python3 only,maybe.
+
 r.txt:
     abc123
 
@@ -5,7 +7,15 @@ r.txt:
 >>> read_in(r'.\r.txt')
 b'abc123'
 
+
+
+
+
 -------------------------------
+
+
+
+
 
 >>> from ezfile import read_in
 >>> write_out(r'.\w.txt',b'ez')
