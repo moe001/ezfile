@@ -3,7 +3,7 @@
 from setuptools import setup, find_packages
 
 setup(name='ezfile',
-      version='0.0.3',
+      version='0.0.3.1',
       description='easy file-io',
       author='moe001',
       author_email='i@001.moe',

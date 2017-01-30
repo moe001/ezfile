@@ -17,7 +17,7 @@ b'abc123'
 
 
 
->>> from ezfile import read_in
+>>> from ezfile import write_out
 >>> write_out(r'.\w.txt',b'ez')
 True
 
