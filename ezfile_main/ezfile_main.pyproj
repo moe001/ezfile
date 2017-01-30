@@ -32,6 +32,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="ezfile_main.py" />
+    <Compile Include="setup.py" />
     <Compile Include="test1.py">
       <SubType>Code</SubType>
     </Compile>
