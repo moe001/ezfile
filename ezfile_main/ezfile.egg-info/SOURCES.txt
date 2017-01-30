@@ -1,0 +1,8 @@
+README.txt
+setup.py
+ezfile/__init__.py
+ezfile/ezfile.py
+ezfile.egg-info/PKG-INFO
+ezfile.egg-info/SOURCES.txt
+ezfile.egg-info/dependency_links.txt
+ezfile.egg-info/top_level.txt
