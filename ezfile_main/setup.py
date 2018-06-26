@@ -4,7 +4,7 @@
 from setuptools import setup, find_packages
 
 setup(name='ezfile',
-      version='0.0.3.2',
+      version='0.0.3.3',
       description='A one-line file-IO package',
       author='moe001',
       author_email='i@001.moe',
