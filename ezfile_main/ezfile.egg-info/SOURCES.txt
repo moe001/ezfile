@@ -1,4 +1,5 @@
 README.md
+README.rst
 setup.py
 ezfile/__init__.py
 ezfile/ezfile.py

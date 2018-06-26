@@ -1,11 +1,37 @@
 Metadata-Version: 1.0
 Name: ezfile
-Version: 0.0.3.2
+Version: 0.0.3.4
 Summary: A one-line file-IO package
 Home-page: https://github.com/moe001/ezfile
 Author: moe001
 Author-email: i@001.moe
-License: UNKNOWN
+License: MIT
 Description-Content-Type: UNKNOWN
-Description: UNKNOWN
+Description: A one-line file-IO package
+        ==========================
+        
+        python3 only,maybe.
+        
+        ::
+        
+           '''
+           r.txt:
+               abc123
+           '''
+           >>> from ezfile import read_in
+           >>> read_in(r'.\r.txt')
+           b'abc123'
+        
+        --------------
+        
+        ::
+        
+           >>> from ezfile import write_out
+           >>> write_out(r'.\w.txt',b'ez')
+           True
+           '''
+           w.txt:
+               ez
+           '''
+        
 Platform: UNKNOWN

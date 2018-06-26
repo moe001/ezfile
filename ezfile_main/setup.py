@@ -4,11 +4,12 @@
 from setuptools import setup, find_packages
 
 setup(name='ezfile',
-      version='0.0.3.3',
+      version='0.0.3.4',
       description='A one-line file-IO package',
       author='moe001',
       author_email='i@001.moe',
       url='https://github.com/moe001/ezfile',
       packages=find_packages(),
-      license='MIT'
+      license='MIT',
+      long_description=open('README.rst').read(),
      )
