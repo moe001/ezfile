@@ -1,3 +1,5 @@
+#coding=utf-8
+
 def read_in(filename):
     """
     return a bytes object(like "rb")
@@ -27,14 +29,14 @@ def write_out(filename,data=b""):
     
     try:
         with open(filename,"wb") as f:
-            try:
-                "" + data
+            if isinstance(data,str):
                 f.write(data.encode("utf-8"))
-            except:
+            else:
                 f.write(data)
 
         result = True
 
-    except:pass
+    except Exception as e:
+        pass
 
     return result
