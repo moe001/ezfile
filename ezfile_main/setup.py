@@ -10,4 +10,5 @@ setup(name='ezfile',
       author_email='i@001.moe',
       url='https://github.com/moe001/ezfile',
       packages=find_packages(),
+      license='MIT'
      )
