@@ -1,5 +1,6 @@
 # A one-line file-IO package
-
+[deprecated]Use `pathlib.Path` in Python 3.5 or later.https://docs.python.org/3/library/pathlib.html#pathlib.Path.read_bytes
+---
 python3 only,maybe.
 
     '''
